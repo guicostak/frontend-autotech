@@ -1,0 +1,24 @@
+# Ignorar a pasta node_modules
+/node_modules
+
+# Testes (opcional, se estiver usando cobertura de testes)
+# /coverage
+
+# Next.js build e cache
+/.next/
+/out/
+
+# Arquivos temporários e de depuração
+.DS_Store
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Arquivos de configuração local (opcional)
+.env*.local
+
+# Vercel (se estiver usando Vercel para deploy)
+.vercel
+
+# Typescript build info (opcional, se estiver usando TypeScript)
+*.tsbuildinfo
